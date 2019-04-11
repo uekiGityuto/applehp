@@ -388,7 +388,7 @@ footer h4 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	color: #000;
+	color: #333333;
 }
 
 .footer-container h4 {
