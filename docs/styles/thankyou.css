@@ -1,0 +1,47 @@
+body {
+  font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* 画像ファイルの指定 */
+  background-image: url(../imgs/home-office-599475_1920.jpg);   
+  /* 画像を常に天地左右の中央に配置 */
+  background-position: center center;
+  /* 画像をタイル状に繰り返し表示しない */
+  background-repeat: no-repeat;
+  /* コンテンツの高さが画像の高さより大きい時、動かないように固定 */
+  background-attachment: fixed;
+  /* 表示するコンテナの大きさに基づいて、背景画像を調整 */
+  background-size: cover;
+  /* 背景画像が読み込まれる前に表示される背景のカラー */
+  background-color: #464646;
+}
+
+body::before {
+	background-color: rgba(0,0,0,0.4);
+	/* 自由に位置指定 */
+	position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+	margin: auto;
+  content: ' ';
+}
+
+#messagebox {
+	top: 10%;
+	right: 10%;
+	left: 10%;
+	position: absolute;	
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	width: 80%;
+	z-index: 10;
+}
+
+#messagebox p {
+	margin: 5px 0;
+}
+
+#messagebox a {
+	color: #3366FF;
+}
