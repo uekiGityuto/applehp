@@ -391,6 +391,10 @@ footer h4 {
 	color: #000;
 }
 
+.footer-container h4 {
+	color: #333333;
+}
+
 .footer-container .accbox {
 	padding: 20px;
 }
@@ -401,10 +405,6 @@ footer h4 {
 	justify-content: flex-start;
 	list-style: none;
 	padding: 0;
-}
-
-.footer-links h4 {
-	color: #333333;
 }
 
 .footer-links li {
