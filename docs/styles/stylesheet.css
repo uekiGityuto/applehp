@@ -403,13 +403,17 @@ footer h4 {
 	padding: 0;
 }
 
+.footer-links h4 {
+	color: #333333;
+}
+
 .footer-links li {
 	align-items: flex-start;
 	margin-right: auto;
 }
 
 .footer-links a {
-	color: #000;
+	color: #555555;
 }
 
 .footer-links-nest {
