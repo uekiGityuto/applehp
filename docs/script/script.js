@@ -39,7 +39,6 @@ $(function() {
 			$(".fa-bars").removeClass("fa-bars").addClass("fa-times");
 			$(".hum-menu").slideDown();
 			/*背景がスクロールしないようにする*/
-			/*$("body").css("overflow","hidden");*/
 			$('html').addClass('scroll-prevent')
 			$(".header-link").css("max-width", size);
 		}
@@ -56,7 +55,6 @@ $(function() {
 			$(".search-hidden").css("opacity","0");
 			$("#head-search").animate({width: "show"}, "100");
 			/*背景がスクロールしないようにする*/
-			/*$("body").css("overflow","hidden");*/
 			$('html').addClass('scroll-prevent')
 		}
 	})

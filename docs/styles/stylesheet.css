@@ -112,21 +112,6 @@ header a:hover {
 	width: 550px;
 }
 
-/*
-#head-search::after {
-	position: fixed;
-  top: 35px;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.6);
-	z-index: 100;
-	width: 100%;
-	height: 100%;
-	content: "";
-}
-*/
-
 .shade-wrapper {
 	position: fixed;
   top: 35px;
@@ -140,7 +125,6 @@ header a:hover {
 	content: "";
 	display: none;
 }
-
 
 .hum-menu {
 	display :none;
@@ -231,7 +215,6 @@ header a:hover {
 	vertical-align: middle;
 	margin: 0 auto;
 	text-align: center;
-	/*padding: 100px 100px 50px 100px;*/
 	margin-bottom: 5px;
 }
 
@@ -337,10 +320,6 @@ header a:hover {
 	width: 100%;
 	height: 100%;
 	padding: 30px 30px 0 30px;
-	/*display: flex;*/
-	/*flex-direction: column;*/
-	/*justify-content: center;*/
-  /*text-align: center;*/
 	position: relative;
 }
 
@@ -356,8 +335,6 @@ header a:hover {
 }
 
 .pic-area {
-	/*margin-top: auto;
-	width: 100%;*/
 	position: absolute;
 	right: 0;
 	bottom: 0;
@@ -378,8 +355,8 @@ header a:hover {
 
 footer {
 	background-color: #EEEEEE;
-	color: #000;
-	font-size: 5px;
+	color: #888888;
+	font-size: 12px;
 	margin: 0 auto;
 	max-width: 1024px;
 	width: 100%;
@@ -389,13 +366,12 @@ footer {
 }
 
 footer li {
-	font-size: 11px;
 	font-weight: 400;
 	padding: 5px auto;
 }
 
 footer a {
-	color: #000;
+	color: #888888;
 }
 
 footer a:hover {
@@ -403,22 +379,19 @@ footer a:hover {
 }
 
 footer h4 {
-	font-size: 11px;
 	margin: 0;
 }
 
 .footer-container {
 	margin-top: 2px;
-	/*margin-top: 2px 20px 5px 0;*/
 	border-top: 1px solid #CCCCCC;
 	display: flex;
 	flex-direction: row;
-	/*justify-content: flex-start;*/
 	justify-content: space-between;
+	color: #000;
 }
 
 .footer-container .accbox {
-	/*padding: 30px 5px 5px 50px;*/
 	padding: 20px;
 }
 
@@ -433,6 +406,10 @@ footer h4 {
 .footer-links li {
 	align-items: flex-start;
 	margin-right: auto;
+}
+
+.footer-links a {
+	color: #000;
 }
 
 .footer-links-nest {
